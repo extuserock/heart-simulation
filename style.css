@@ -14,7 +14,7 @@
 }
 
 .top-screen img{
-    width: 70%; /* set the width to 50% */
+    width: 60%; /* set the width to 50% */
     display: block; /* set the display property to block */
     margin: 0 auto; /* center the image horizontally */
 }
@@ -45,7 +45,6 @@
     width: 100px;
     height: 200px;
     transform: rotate(-90deg);
-    margin-right: 20px;
     align-self: center;
     /* css for range */
     -webkit-appearance: none;
@@ -82,28 +81,30 @@
 }
 /* High label class */
 .high{
-    top: -80px; /* position the label 20px from the top */
-    left: 68px;
+    top: -60px; /* position the label 20px from the top */
+    left: 43px;
     font-size: 15px;
     font-weight: bold;
 }
 /* Low label class */
 .low{
-    bottom: -80px; /* position the label 20px from the bottom */
-    left: 68px;
+    bottom: -60px; /* position the label 20px from the bottom */
+    left: 43px;
     font-size: 15px;
     font-weight: bold;
 }
 /* High label class */
 .low-2{
-    bottom: -120px; /* position the label 20px from the bottom */
-    left: 29px;
-    font-size: 15px;
+    /* position the label 20px from the bottom */
+    /* transform: rotate(-90deg); */
+    top: 100px;
+    left: 25px;
+    font-size: 10px;
     font-weight: bold;
     border: 1px solid black;
     border-radius: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .popup {
     display: none; /* Hide the pop-up by default */
