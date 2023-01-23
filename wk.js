@@ -8,6 +8,7 @@ const range5=document.getElementById('my-range5');
 const range6=document.getElementById('my-range6');
 const range7=document.getElementById('my-range7');
 const range8=document.getElementById('my-range8');
+const range9=document.getElementById('my-range9');
 
 const resetvalue=0
 
@@ -158,6 +159,26 @@ range8.addEventListener('input', function() {
         image1.src = '/asset/12.jpg';
     } else if (this.value == -1) {
         image1.src = '/asset/16.jpg';
+    } else if(this.value == 0){
+        image1.src = '/asset/1.jpg';
+    }
+});
+
+range9.addEventListener('input', function() {
+
+    range1.value=resetvalue;
+    range2.value=resetvalue;
+    range3.value=resetvalue;
+    range4.value=resetvalue;
+    range5.value=resetvalue;
+    range6.value=resetvalue;
+    range7.value=resetvalue;
+    range8.value=resetvalue;
+
+    if (this.value == 1) {
+        image1.src = '/asset/1.jpg';
+    } else if (this.value == -1) {
+        image1.src = '/asset/9.jpg';
     } else if(this.value == 0){
         image1.src = '/asset/1.jpg';
     }
