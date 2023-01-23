@@ -1,0 +1,118 @@
+.parent {
+    display: flex;
+    width: 100vw;
+    height: 96vh;
+    align-items: center;
+    justify-content: center;
+}
+.left-section {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+.right-section {
+    width: 40%;
+    height: 100%;
+}
+.range-container {
+    transform: rotate(90deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center align the range inputs vertically */
+    justify-content: center; /* center align the range inputs horizontally */
+    height: 80%; /* adjust as needed */
+    margin-top: 5%; /* adjust as needed */
+    margin-bottom: 4%; /* adjust as needed */
+}
+.range-input {
+    margin: 1%; /* adjust as needed */
+    margin-bottom: 36px; /* add a 10px space between every range input */
+    margin-left: 70px;
+}
+.img{
+    margin-top: 50px;
+    transform: rotate(90deg);
+    width: 80%;
+}
+.right-section {
+    background-color: gray; /* specify your color code */
+    border-radius: 15px;
+}
+.range{
+    margin-right: 20px;
+    align-self: center;
+
+    /* css for range */
+    -webkit-appearance: none;
+    width: 200px;
+    height: 20px;
+    background-color: #778da9;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    border-radius: 15px;
+    box-shadow: 0px 1px 10px 1px black;
+}
+/* .range:hover{
+    opacity: 1;
+} */
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #14213d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* Range label class */
+.range-label{
+    position: absolute; /* position the labels absolutely */
+    font-size: 14px; /* adjust the font size */
+    color: #333; /* adjust the color */
+    text-align: center; /* center the text */
+}
+.range-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.range-label{
+    position: absolute; /* position the labels absolutely */
+    font-size: 14px; /* adjust the font size */
+    color: #333; /* adjust the color */
+    text-align: center; /* center the text */
+}
+/* High label class */
+.high{
+    transform: rotate(-90deg);
+    left: 180px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+/* Low label class */
+.low{
+    transform: rotate(-90deg);
+    left: 410px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+/* High label class */
+.low-2{
+    transform: rotate(180deg);
+    left: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    margin-top: 31px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
