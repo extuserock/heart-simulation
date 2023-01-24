@@ -15,19 +15,20 @@
     height: 100%;
 }
 .range-container {
-    transform: rotate(90deg);
+
+    transform: rotate(180deg);
     display: flex;
     flex-direction: column;
     align-items: center; /* center align the range inputs vertically */
     justify-content: center; /* center align the range inputs horizontally */
     height: 80%; /* adjust as needed */
-    margin-top: 5%; /* adjust as needed */
+    margin-top: 10%; /* adjust as needed */
     margin-bottom: 4%; /* adjust as needed */
 }
 .range-input {
     margin: 1%; /* adjust as needed */
-    margin-bottom: 30px; /* add a 10px space between every range input */
-    margin-left: 70px;
+    margin-bottom: 37px; /* add a 10px space between every range input */
+    margin-left: -200px;
 }
 .img{
     margin-top: 50px;
@@ -35,7 +36,7 @@
     width: 80%;
 }
 .right-section {
-    background-color: gray; /* specify your color code */
+    background-color: #243763; /* specify your color code */
     border-radius: 15px;
 }
 .range{
@@ -61,7 +62,7 @@
     appearance: none;
     width: 30px;
     height: 30px;
-    background: #14213d;
+    background: white;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -87,18 +88,18 @@
 }
 /* High label class */
 .high{
-    transform: rotate(-90deg);
-    left: 160px;
-    margin-top: 5px;
+    transform: rotate(180deg);
+    margin-left: -240px;
+    /* margin-top: 1px; */
     font-size: 15px;
     font-weight: bold;
     color: white;
 }
 /* Low label class */
 .low{
-    transform: rotate(-90deg);
-    left: 390px;
-    margin-top: 5px;
+    transform: rotate(180deg);
+    left: 260px;
+    /* margin-top: 5px; */
     font-size: 15px;
     font-weight: bold;
     color: white;
@@ -106,12 +107,13 @@
 /* High label class */
 .low-2{
     transform: rotate(180deg);
-    left: 200px;
-    font-size: 14px;
+    /* left: 200px; */
+    margin-left: 30px;
+    font-size: 18px;
     font-weight: bold;
     border: 1px solid white;
     color: white;
-    margin-top: 31px;
+    /* margin-top: 39px; */
     border-radius: 15px;
     padding-left: 10px;
     padding-right: 10px;
