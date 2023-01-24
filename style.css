@@ -26,7 +26,7 @@
 }
 .range-input {
     margin: 1%; /* adjust as needed */
-    margin-bottom: 36px; /* add a 10px space between every range input */
+    margin-bottom: 30px; /* add a 10px space between every range input */
     margin-left: 70px;
 }
 .img{
@@ -88,7 +88,7 @@
 /* High label class */
 .high{
     transform: rotate(-90deg);
-    left: 180px;
+    left: 160px;
     margin-top: 5px;
     font-size: 15px;
     font-weight: bold;
@@ -97,7 +97,7 @@
 /* Low label class */
 .low{
     transform: rotate(-90deg);
-    left: 410px;
+    left: 390px;
     margin-top: 5px;
     font-size: 15px;
     font-weight: bold;
@@ -107,7 +107,7 @@
 .low-2{
     transform: rotate(180deg);
     left: 200px;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     border: 1px solid white;
     color: white;
@@ -115,4 +115,10 @@
     border-radius: 15px;
     padding-left: 10px;
     padding-right: 10px;
+}
+/* css for 768px devices */
+@media screen and (min-width: 769px) and (min-height: 1024px) {
+    .high{
+        left: 100px;
+    }
 }
